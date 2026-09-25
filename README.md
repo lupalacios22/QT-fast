@@ -35,10 +35,10 @@ please cite the original work:
 | `QT.py` | Original implementation from [rglez/QT](https://github.com/rglez/QT), unmodified |
 | `QT_fast.py` | Optimized version (this work) |
 | `tests/compare.py` | Runs both versions on the same matrix and checks that the results are identical |
-| `environment.yml` | Dependencies (numpy, mdtraj) |
 | `LICENSE` | GNU GPL v3, the same license as the original |
 
 ## Usage
+  **Requirements:** Python 3, NumPy and MDTraj (MDTraj is only needed when reading a trajectory; pandas is optional, to read CSV matrices faster).
 
 The arguments are the same as in `QT.py`, plus `-matrix`.
 
