@@ -38,13 +38,6 @@ please cite the original work:
 | `environment.yml` | Dependencies (numpy, mdtraj) |
 | `LICENSE` | GNU GPL v3, the same license as the original |
 
-## Installation
-
-```bash
-conda env create -f environment.yml
-conda activate qt
-```
-
 ## Usage
 
 The arguments are the same as in `QT.py`, plus `-matrix`.
