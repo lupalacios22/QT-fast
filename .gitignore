@@ -1,0 +1,23 @@
+# Matrices, trayectorias y resultados: pesan mucho y dependen de cada sistema
+*.npy
+*.csv
+*.dcd
+*.xtc
+*.trr
+*.psf
+*.pdb
+QT_Clusters*.txt
+QT_Visualization.log
+output*/
+out*/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Archivos originales descargados de rglez/QT (referencia local)
+upstream/
+
+# Versión anterior del test (reemplazada por tests/compare.py)
+tests/comparar.py
